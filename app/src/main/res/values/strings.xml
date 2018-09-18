@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="tvFullName">Full Name:</string>
+    <string name="tvQualification">Qualification:</string>
+    <string name="tvProfession">Profession:</string>
+    <string name="tvHobby">Hobby:</string>
+    <string name="tvDreamJob">Dream Job:"</string>
+</resources>
