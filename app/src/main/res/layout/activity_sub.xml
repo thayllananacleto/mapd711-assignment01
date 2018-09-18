@@ -1,9 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SubActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/tvMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvMsg"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/lbFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="@string/tvFullName" />
+
+        <TextView
+            android:id="@+id/tvFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/lbQualification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="@string/tvQualification" />
+
+        <TextView
+            android:id="@+id/tvQualification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/lbProfession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="@string/tvProfession" />
+
+        <TextView
+            android:id="@+id/tvProfession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/lbHobby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="@string/tvHobby" />
+
+        <TextView
+            android:id="@+id/tvHobby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/lbDreamJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="@string/tvDreamJob" />
+
+        <TextView
+            android:id="@+id/tvDreamJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+</TableLayout>
